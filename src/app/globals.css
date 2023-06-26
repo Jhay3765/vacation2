@@ -5,22 +5,13 @@
   list-style: none;
   background-color: rgba(169, 255, 226, 0.264);
 }
+body {
+  position: absolute;
+}
 .hero {
   background-image: url("/hero.jpg");
 }
 
 .img1 {
   background-image: url("/beach.jpg");
-}
-.img2 {
-}
-.img3 {
-}
-.img1 {
-}
-.img1 {
-}
-.img1 {
-}
-.img1 {
 }

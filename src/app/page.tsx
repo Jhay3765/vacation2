@@ -7,24 +7,24 @@ export default function Home() {
   return (
     <>
       <div className="bg-slate-400 hero h-screen bg-cover bg-blend-multiply text-white   ">
-        <div className=" py-48 px-24        lg:px-48 z-40  absolute ">
-          <p className="text-7xl       lg:text-8xl">
+        <div className=" py-36 px-12        lg:px-48 z-40  absolute ">
+          <p className="text-4xl       lg:text-8xl">
             Your Trip.
             <br />
             Your Date. <br />
-            <span className="text-2xl font-light">
+            <span className="text-base   sm:text-2xl font-light">
               {" "}
               We handle everything , all you have to do is{" "}
               <em className="text-blue-400 font-bold">Go </em>.
             </span>
           </p>
-          <button className="bg-white py-4 px-10  text-blue-600 font-bold mt-7">
+          <button className=" text-xs sm:text-lg  py-2 px-5 bg-white sm:py-4 sm:px-10  text-blue-600 font-bold mt-7">
             {" "}
             BOOK NOW
           </button>
         </div>
 
-        <div className="h-full bg-black opacity-50 w-full max-w-3xl absolute "></div>
+        <div className="h-screen bg-black opacity-50 w-full max-w-3xl absolute "></div>
       </div>
 
       <h2 className="text-center text-4xl mt-16 font-bold">
@@ -130,7 +130,7 @@ export default function Home() {
           Our popular destinations <br></br>
           <span className=" text-xl"> Travel your way</span>
         </h2>
-        <div className="flex flex-wrap justify-center py-14 gap-8 flex-wrap">
+        <div className="flex flex-wrap justify-center py-14 gap-8 ">
           <Package
             title="Tokyo Express"
             text=" Take in modern Tokyo: Tokyo Tower, Sensoji Temple & Imperial Gardens; explore on your own with flights, airport transfers, deluxe hotel & city tour included"
