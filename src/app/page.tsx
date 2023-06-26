@@ -2,12 +2,13 @@ import { Navbar } from "./components/Navbar";
 import { Card } from "./components/card";
 import Link from "next/link";
 import { Package } from "./components/package";
+import Image from "next/image";
 export default function Home() {
   return (
     <>
       <div className="bg-slate-400 hero h-screen bg-cover bg-blend-multiply text-white   ">
-        <div className=" py-48 px-48 z-40  absolute ">
-          <p className=" text-8xl">
+        <div className=" py-48 px-24        lg:px-48 z-40  absolute ">
+          <p className="text-7xl       lg:text-8xl">
             Your Trip.
             <br />
             Your Date. <br />
@@ -35,8 +36,8 @@ export default function Home() {
       </h2>
       {/*           *********Beach Section*********                                            */}
       <section className="mt-16">
-        <div className="flex container mx-auto mt-16 gap-20">
-          <div>
+        <div className=" flex flex-col gap-1 text-center      lg:flex lg:flex-row container mx-auto mt-16 lg:gap-20">
+          <div className="grow">
             <h2 className="text-7xl ">Bleach Bliss</h2>
             <p className="max-w-4xl text-2xl text-slate-700 py-24">
               Sink your toes into pristine white sands and let the crystal-clear
@@ -47,14 +48,14 @@ export default function Home() {
               sports, our beach destinations have it all.
             </p>
           </div>
-          <img className="w-2/4" src="beach.jpg" />
+          <img className="grow lg:w-1/2" src="beach.jpg" />
         </div>
         <button></button>
       </section>
       {/*           *********   Nature's Haven   *********                                            */}
       <section className="mt-16">
-        <div className="flex container mx-auto mt-16 gap-20">
-          <img className="w-2/4" src="forest.jpg" />
+        <div className="flex  gap-1 text-center flex-col-reverse     lg:flex lg:flex-row container mx-auto mt-16 lg:gap-20">
+          <img className="grow lg:w-1/2" src="forest.jpg" />
           <div>
             <h2 className="text-7xl ">Nature's Haven</h2>
             <p className="max-w-4xl text-2xl text-slate-700 py-24">
@@ -71,7 +72,7 @@ export default function Home() {
       </section>
       {/*           *********Adventure Section*********                                            */}
       <section className="mt-16">
-        <div className="flex container mx-auto mt-16 gap-20">
+        <div className="flex  gap-1 text-center flex-col  lg:flex lg:flex-row container mx-auto mt-16 lg:gap-20">
           <div>
             <h2 className="text-7xl ">Adventure Thrills</h2>
             <p className="max-w-4xl text-2xl text-slate-700 py-24">
@@ -83,16 +84,16 @@ export default function Home() {
               on the adventure of a lifetime.
             </p>
           </div>
-          <img className="w-2/4" src="rollercoaster.jpg" />
+          <img className="grow lg:w-1/2" src="rollercoaster.jpg" />
         </div>
         <button></button>
       </section>
       {/*           *********GREY BANNER*********                                            */}
-      <section className="bg-slate-300 flex flex-col justify-around">
+      <section className="bg-slate-300 flex flex-col justify-around mt-36 ">
         <h2 className="pt-14 pb-3 text-center text-4xl text-blue-600 font-semibold">
           Travel with us and enjoy
         </h2>
-        <div className="flex justify-around mx-auto">
+        <div className="flex justify-around mx-auto flex-wrap">
           <Card
             img="icons/cash.png"
             title="Incredible Value"
@@ -149,10 +150,12 @@ export default function Home() {
         </div>
       </section>
 
-      <footer className="h-96 bg-blue-200 leading-8 flex flex-col items-center g">
-        <section className="flex justify-around w-full max-w-5xl py-24">
+      <footer className="h-96  bg-blue-200 leading-8 flex flex-col items-center justify-center gap-12">
+        <section className="grid grid-rows-2 grid-flow-col   lg:flex lg:justify-around gap-4  max-w-5xl  ">
           <ul>
-            <li>Hello</li>
+            <li>
+              <Image alt="logo" src="/logo2.png" width="150" height="100" />
+            </li>
           </ul>
           <ul>
             <li className="font-bold">About GOTRAVEL</li>

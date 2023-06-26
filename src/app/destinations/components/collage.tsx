@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export const Collage = () => {
   return (
-    <section className=" bg-black max-w-7xl flex flex-col gap-1 p-1">
+    <section className=" bg-slate-100 max-w-7xl flex flex-col gap-1 p-1 w-full">
       <div className="flex h-64 gap-1">
         <div className="  relative grow">
           <Image
