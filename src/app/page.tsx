@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <div className="bg-slate-400 hero h-screen bg-cover bg-blend-multiply text-white   ">
+      <div className="bg-slate-400 hero h-screen bg-cover bg-blend-multiply text-white    ">
         <div className=" py-36 px-12        lg:px-48 z-40  absolute ">
           <p className="text-4xl       lg:text-8xl">
             Your Trip.

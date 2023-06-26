@@ -5,8 +5,11 @@
   list-style: none;
   background-color: rgba(169, 255, 226, 0.264);
 }
-body {
-  position: absolute;
+
+@media (max-width: 400px) {
+  body {
+    position: absolute;
+  }
 }
 .hero {
   background-image: url("/hero.jpg");
