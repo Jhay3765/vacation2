@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export const Navbar = () => {
   return (
@@ -6,8 +7,12 @@ export const Navbar = () => {
       <nav className=" flex gap-24 sm:gap-36 items-center justify-between max-w-7xl ">
         <Image alt="logo" src="/logo2.png" width="150" height="100" />
         <ul className="flex gap-12 py-5 items-center">
-          <li className="hidden  sm:block">Home</li>
-          <li className="hidden  sm:block">Destinations</li>
+          <Link href="/" className="hidden  sm:block">
+            Home
+          </Link>
+          <Link href="/destinations" className="hidden  sm:block">
+            Destinations
+          </Link>
           <li className="hidden  lg:block">Experiences</li>
           <li className="hidden  2xl:block">Blog</li>
           <li className="hidden  2xl:block">About</li>

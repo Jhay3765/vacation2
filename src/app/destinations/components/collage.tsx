@@ -3,12 +3,12 @@ import Image from "next/image";
 
 export const Collage = () => {
   return (
-    <section className=" bg-slate-100 max-w-7xl flex flex-col gap-1 p-1 w-full">
+    <section className=" bg-slate-100  flex flex-col gap-1 p-1 w-full">
       <div className="flex h-64 gap-1">
         <div className="  relative grow">
           <Image
             alt="beach"
-            src="/beach.jpg"
+            src="/locations/dubai/dubai2.jpg"
             fill
             style={{ objectFit: "cover" }}
           />
@@ -16,7 +16,7 @@ export const Collage = () => {
         <div className=" relative grow-[2]">
           <Image
             alt="beach"
-            src="/beach.jpg"
+            src="/locations/NY/newyork2.jpg"
             fill
             style={{ objectFit: "cover" }}
           />
@@ -24,7 +24,7 @@ export const Collage = () => {
         <div className=" relative  grow">
           <Image
             alt="beach"
-            src="/beach.jpg"
+            src="/locations/france/france2.jpg"
             fill
             style={{ objectFit: "cover" }}
           />
@@ -36,7 +36,7 @@ export const Collage = () => {
           <div className="  relative ">
             <Image
               alt="beach"
-              src="/beach.jpg"
+              src="/locations/france/france.jpg"
               fill
               style={{ objectFit: "cover" }}
             />
@@ -44,7 +44,7 @@ export const Collage = () => {
           <div className="  relative ">
             <Image
               alt="beach"
-              src="/beach.jpg"
+              src="/locations/japan/japan.jpg"
               fill
               style={{ objectFit: "cover" }}
             />
@@ -52,7 +52,7 @@ export const Collage = () => {
           <div className="  relative ">
             <Image
               alt="beach"
-              src="/beach.jpg"
+              src="/locations/japan/shrine.jpg"
               fill
               style={{ objectFit: "cover" }}
             />
@@ -60,7 +60,7 @@ export const Collage = () => {
           <div className="  relative ">
             <Image
               alt="beach"
-              src="/beach.jpg"
+              src="/locations/japan/japan2.jpg"
               fill
               style={{ objectFit: "cover" }}
             />
@@ -71,7 +71,7 @@ export const Collage = () => {
           <div className="  relative ">
             <Image
               alt="beach"
-              src="/beach.jpg"
+              src="/locations/china/china.jpg"
               fill
               style={{ objectFit: "cover" }}
               className="grow"
@@ -81,7 +81,7 @@ export const Collage = () => {
           <div className="  relative ">
             <Image
               alt="beach"
-              src="/beach.jpg"
+              src="/locations/london/london.jpg"
               fill
               style={{ objectFit: "cover" }}
               className="grow-[2]"
@@ -91,7 +91,7 @@ export const Collage = () => {
           <div className="  relative ">
             <Image
               alt="beach"
-              src="/beach.jpg"
+              src="/locations/london/london2.jpg"
               fill
               style={{ objectFit: "cover" }}
               className="grow"

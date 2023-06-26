@@ -3,7 +3,6 @@
 @tailwind utilities;
 :root {
   list-style: none;
-  background-color: rgba(169, 255, 226, 0.264);
 }
 
 @media (max-width: 400px) {
