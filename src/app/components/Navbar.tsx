@@ -15,8 +15,12 @@ export const Navbar = () => {
           </Link>
           <li className="hidden  lg:block">Experiences</li>
           <li className="hidden  2xl:block">Blog</li>
-          <li className="hidden  2xl:block">About</li>
-          <li className="hidden  2xl:block">Contact</li>
+          <Link href="/about" className="hidden  2xl:block">
+            About
+          </Link>
+          <Link href="/contact" className="hidden  2xl:block">
+            Contact
+          </Link>
           <Image
             alt="menu"
             src="/icons/menu.png"

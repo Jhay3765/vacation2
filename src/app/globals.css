@@ -4,7 +4,13 @@
 :root {
   list-style: none;
 }
+.blue-back {
+  background-position: 0 0;
 
+  background-repeat: no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    /* bottom, image */ url("/hero.jpg");
+}
 @media (max-width: 400px) {
   body {
     position: absolute;

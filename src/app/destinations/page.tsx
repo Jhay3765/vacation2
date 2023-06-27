@@ -13,14 +13,14 @@ export default function Destinations() {
 
   return (
     <>
-      <div className="py-36">
+      <div className="pt-24 pb-8">
         {" "}
         <h1 className="text-center text-4xl font-bold ">
           {" "}
           Explore Our Rich Destinations
         </h1>
       </div>
-      <div className="bg-white max-w-7xl h-36 rounded-xl container mx-auto mb-24 flex justify-center items-center gap-20">
+      <div className="bg-gray-200 max-w-7xl h-36 rounded-xl container mx-auto mb-24 flex justify-center items-center gap-12">
         <select
           name="destinations"
           className="border px-2 py-1 border-black"
@@ -28,9 +28,10 @@ export default function Destinations() {
           onChange={handleChange}
         >
           <option value="">all destinations</option>
-          <option value="japan">japan</option>
-          <option value="newyork">newyork</option>
+          <option value="usa">UNITED STATES</option>
+          <option value="japan">JAPAN</option>
         </select>
+
         <Link
           href={`/destinations/${selected}`}
           className=" border border-black px-2 py-1 "
