@@ -2,13 +2,12 @@ export default function About() {
   return (
     <main className="py-24 flex justify-center border border-black">
       <section className="max-w-xl ">
-        <h1 className="text-2xl font-bold py-6 text-center">Contact Us</h1>
-        <h2 className="text-center">
+        <h1 className="text-2xl font-bold py-3 text-center">Contact Us</h1>
+        <h2 className="text-center pb-6">
           Have questions, need assistance, or ready to start planning your next
           unforgettable travel experience? We're here to help! Get in touch with
           our friendly team at GoTravel and let us guide you towards the perfect
-          flights and tours package. Reach out to us today and let your travel
-          dreams take flight.
+          flights and tours package.
         </h2>
         <form action="">
           <section className="flex justify-between">
@@ -34,7 +33,7 @@ export default function About() {
           <input
             type="submit"
             value="Submit"
-            className="border border-black py-2 px-10 my-4"
+            className="border border-black py-2 px-10 my-4 font-bold"
           />
         </form>
       </section>

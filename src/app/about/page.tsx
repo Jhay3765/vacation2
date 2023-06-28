@@ -3,11 +3,12 @@ import { Foot } from "../components/foot";
 
 export default function About() {
   return (
-    <main>
-      <div className="pt-48 container mx-auto">
+    <main className=" ">
+      <div className="bg-black h-16"></div>
+      <div className="pt-48  flex flex-col items-center">
         <section className="max-w-4xl text-lg leading-9">
+          <p className="font-bold text-3xl text-center"> Welcome to GoTravel</p>
           <p>
-            <span className="font-bold text-3xl"> Welcome to GoTravel</span>{" "}
             <br /> <br /> At GoTravel, we believe that travel should be an
             unforgettable experience, seamlessly blending adventure, relaxation,
             and exploration. We are your ultimate travel companion, offering a
@@ -39,15 +40,17 @@ export default function About() {
           </p>
         </section>
 
-        <section>
-          <h1 className="font-bold text-2xl my-14">What People Say About Us</h1>
-          <div className=" max-w-4xl shadow-2xl flex flex-col justify-center items-center text-center gap-4 py-5 my-10">
+        <section className="">
+          <h1 className="font-bold text-2xl my-14 text-center">
+            What People Say About Us
+          </h1>
+          <div className=" max-w-4xl shadow-2xl flex flex-col justify-center items-center text-center gap-4 py-5 my-10 px-14 ">
             <img
               src="people/person1.png"
               alt=""
               className="rounded-full w-1/8"
             />
-            <p className="max-w-2xl">
+            <p className="max-w-2xl ">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
               aliquam, purus sit amet luctus venenatis, lectus magna fringilla
               urna, porttitor
