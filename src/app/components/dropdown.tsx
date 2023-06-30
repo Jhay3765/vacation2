@@ -34,7 +34,7 @@ export const DropdownMenuDemo = () => {
             <Link href="/">Home</Link>
           </DropdownMenu.Item>
           <DropdownMenu.Item className="group text-[13px] leading-none text-violet11 rounded-[3px] flex items-center h-[25px] px-[5px] relative pl-[25px] select-none outline-none data-[disabled]:text-mauve8 data-[disabled]:pointer-events-none data-[highlighted]:bg-violet9 data-[highlighted]:text-violet1">
-            <Link href="/destinations">Destinations</Link>
+            <Link href="/destinations">Destinationss</Link>
           </DropdownMenu.Item>
           <DropdownMenu.Item className="group text-[13px] leading-none text-violet11 rounded-[3px] flex items-center h-[25px] px-[5px] relative pl-[25px] select-none outline-none data-[disabled]:text-mauve8 data-[disabled]:pointer-events-none data-[highlighted]:bg-violet9 data-[highlighted]:text-violet1">
             <Link href="/about">About</Link>
@@ -43,7 +43,7 @@ export const DropdownMenuDemo = () => {
             <Link href="/contact">Contact</Link>
           </DropdownMenu.Item>
 
-          <DropdownMenu.Arrow className="fill-white" />
+          <DropdownMenu.Arrow className="fill-white " />
         </DropdownMenu.Content>
       </DropdownMenu.Portal>
     </DropdownMenu.Root>
