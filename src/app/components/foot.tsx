@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 type value = {
   text: string;
@@ -18,7 +19,7 @@ export const Foot = (props: value) => {
         </ul>
         <ul>
           <li className="font-bold">About GOTRAVEL</li>
-          <li>About Us</li>
+          <Link href="/about">About Us</Link>
           <li>Resources</li>
           <li>Policies</li>
         </ul>
@@ -27,11 +28,11 @@ export const Foot = (props: value) => {
           <li>Write a review</li>
           <li>Join Newsletter</li>
         </ul>
-        <ul>
+        <ul className="flex flex-col justify-start items-start">
           <li className="font-bold">Popular Tour Destinations</li>
-          <li>Tokyo</li>
-          <li>New York</li>
-          <li>Paris</li>
+          <Link href="destinations/japan">Tokyo</Link>
+          <Link href="destinations/newyork">New York</Link>
+          <Link href="destinations/paris">Paris</Link>
         </ul>
       </section>
       <section className="flex justify-around">

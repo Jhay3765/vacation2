@@ -42,7 +42,7 @@ export default function ContentPage(props: contentInfo) {
             <section className="flex gap-12 my-8 text-base items center">
               <p>
                 <span className="font-bold">W/FLIGHTS </span> <br /> Starts from{" "}
-                <span className="text-orange-400 ">$2049</span>{" "}
+                <span className="text-orange-400 ">$2000</span>{" "}
               </p>
               <hr className="w-[0.5px] h-12 bg-black" />
               <p>
@@ -105,7 +105,7 @@ export default function ContentPage(props: contentInfo) {
             <h2>FINAL PRICE</h2>
 
             <p className="bg-white border border-black pr-48 pl-3 py-1 text-red-600 font-bold ">
-              {tour === "Flight" ? "2499" : "1799"}{" "}
+              {tour === "Flight" ? "2000" : "1799"}{" "}
             </p>
           </section>
 

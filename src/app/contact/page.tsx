@@ -1,17 +1,21 @@
+import { Foot } from "../components/foot";
+
 export default function About() {
   return (
-    <main className="py-24 flex justify-center border border-black">
+    <main className="py-24 flex  justify-center border border-black">
       <section className="max-w-xl ">
-        <h1 className="text-2xl font-bold py-3 text-center">Contact Us</h1>
-        <h2 className="text-center pb-6">
+        <h1 className="text-2xl   md:text-3xl font-bold py-3 text-center">
+          Contact Us
+        </h1>
+        <h2 className=" px-8 sm:px-4  text-center pb-6">
           Have questions, need assistance, or ready to start planning your next
           unforgettable travel experience? We're here to help! Get in touch with
           our friendly team at GoTravel and let us guide you towards the perfect
           flights and tours package.
         </h2>
-        <form action="">
-          <section className="flex justify-between">
-            <div>
+        <form action="" className="flex flex-col items-center">
+          <section className="flex flex-col sm:justify-between sm:self-stretch sm:flex-row">
+            <div className="">
               <label htmlFor="">First Name</label>
               <input
                 type="text"
@@ -26,7 +30,7 @@ export default function About() {
               />
             </div>
           </section>
-          <div className="my-7">
+          <div className="my-7  sm:self-stretch">
             <label htmlFor="">Message</label>
             <textarea className="border border-black block w-full h-52 p-1 " />
           </div>

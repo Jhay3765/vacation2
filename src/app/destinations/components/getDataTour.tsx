@@ -10,8 +10,8 @@ export async function handleCheckout() {
       },
     ],
     mode: "payment",
-    successUrl: `http://localhost:3000/success`,
-    cancelUrl: `http://localhost:3000/cancel`,
+    successUrl: `http://localhost:3000/order/success`,
+    cancelUrl: `http://localhost:3000/destinations`,
     customerEmail: "customer@email.com",
   });
   console.warn(error.message);
