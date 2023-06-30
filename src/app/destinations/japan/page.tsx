@@ -1,10 +1,20 @@
 "use client";
-
-import { handleCheckout } from "./components/getData";
+import { useState } from "react";
+import { handleCheckout } from "./components/getDataTour";
+import { handleCheckoutFlight } from "./components/getDataFlight";
 
 import Image from "next/image";
 
 export default function Japan() {
+  const [textError, setTextError] = useState(false);
+  const [tour, setTour] = useState("");
+
+  const handleRadioChange = (e: any) => {
+    setTour(e.target.value);
+    setTextError(false);
+    console.log(tour);
+  };
+
   return (
     <div className="">
       <div className="relative h-[500px] ">
@@ -72,11 +82,23 @@ export default function Japan() {
           {/* TOUR AND FLIGHTS */}
 
           <form action="">
-            <input type="radio" name="radio" value="Tour" className="" />
+            <input
+              type="radio"
+              name="radio"
+              value="Tour"
+              className=""
+              onChange={handleRadioChange}
+            />
             <label htmlFor="radio"> Tour</label>
             <br />
             <br />
-            <input type="radio" name="radio" value="Flight" className="" />
+            <input
+              type="radio"
+              name="radio"
+              value="Flight"
+              className=""
+              onChange={handleRadioChange}
+            />
             <label htmlFor="radio"> W/Flights</label>
           </form>
           <hr className="bg-black h-[0.1rem] w-60" />
@@ -101,16 +123,38 @@ export default function Japan() {
             <h2>FINAL PRICE</h2>
 
             <p className="bg-white border border-black pr-48 pl-3 py-1 text-red-600 font-bold ">
-              $2499{" "}
+              {tour === "Flight" ? "2499" : "1799"}{" "}
             </p>
           </section>
 
-          <button
-            className="border border-black px-3 py-1 "
-            onClick={handleCheckout}
-          >
-            BOOK NOW
-          </button>
+          {tour === "Tour" && (
+            <button
+              className="border border-black px-3 py-1 "
+              onClick={handleCheckout}
+            >
+              BOOK NOW
+            </button>
+          )}
+
+          {tour === "Flight" && (
+            <button
+              className="border border-black px-3 py-1 "
+              onClick={handleCheckoutFlight}
+            >
+              BOOK NOW
+            </button>
+          )}
+          {!tour && (
+            <button
+              className="border px-3 py-1 "
+              onClick={() => setTextError(!textError)}
+            >
+              BOOK NOW
+            </button>
+          )}
+          {textError && (
+            <p className="text-sm text-red-600">Please choose booking option</p>
+          )}
         </div>
 
         <hr className="w-[0.5px] h-screen bg-black" />

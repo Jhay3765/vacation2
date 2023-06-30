@@ -5,7 +5,7 @@ import { handleCheckoutFlight } from "./components/getDataFlight";
 
 import Image from "next/image";
 
-export default function Paris() {
+export default function NewYork() {
   const [textError, setTextError] = useState(false);
   const [tour, setTour] = useState("");
 
@@ -19,8 +19,8 @@ export default function Paris() {
     <div className="">
       <div className="relative h-[500px] ">
         <Image
-          alt="paris"
-          src="/locations/france/france2.jpg"
+          alt="New York"
+          src="/locations/NY/newyork2.jpg"
           fill
           style={{
             objectFit: "cover",
@@ -44,52 +44,56 @@ export default function Paris() {
           </section>
           <section className="my-14 text-lg">
             <p className="max-w-xl">
-              Welcome to Paris, the enchanting capital of France! Prepare to
-              indulge in a city that seamlessly blends timeless elegance with
-              artistic charm. Whether you're seeking iconic landmarks, culinary
-              delights, or romantic escapades, Paris offers an incredible array
-              of experiences. Book your trip to Paris today and get ready to
-              embark on an unforgettable journey.
+              Welcome to New York, the vibrant and diverse metropolis of the
+              United States! Get ready to immerse yourself in a city that never
+              sleeps, where towering skyscrapers meet bustling streets and a
+              melting pot of cultures awaits. Whether you're seeking world-class
+              attractions, culinary adventures, or artistic wonders, New York
+              offers an incredible array of experiences. Book your trip to the
+              Big Apple today and get ready for an unforgettable journey.
             </p>
             <p className="mt-12 max-w-xl">
-              Sightseeing and Activities: Eiffel Tower: Soar to new heights at
-              the Eiffel Tower, one of the world's most famous landmarks. Take
-              in breathtaking views of the city from the observation decks,
-              enjoy a romantic picnic in its surrounding gardens, or dine at one
-              of the tower's elegant restaurants. Louvre Museum: Immerse
-              yourself in art and history at the Louvre Museum, home to
-              thousands of masterpieces including the iconic Mona Lisa. Explore
-              its vast collection, wander through grand galleries, and marvel at
-              the museum's architectural splendor. Notre-Dame Cathedral: Step
-              into the Gothic masterpiece that is Notre-Dame Cathedral. Admire
-              its intricate facade, venture inside to witness its awe-inspiring
-              stained glass windows, or climb to the top for panoramic views of
-              Paris. Montmartre: Wander through the bohemian neighborhood of
-              Montmartre, known for its charming streets and artistic heritage.
-              Visit the iconic Sacré-Cœur Basilica, explore quirky art studios,
-              and soak up the vibrant atmosphere of the lively cafés and street
-              artists. Seine River Cruise: Embark on a romantic boat cruise
-              along the Seine River, gliding past Parisian landmarks such as the
-              Louvre, Notre-Dame, and the enchanting bridges. Admire the city's
-              beauty from a different perspective and enjoy a memorable evening
-              under the stars. Champs-Élysées: Stroll down the famous
-              Champs-Élysées, a grand avenue lined with luxury boutiques, cafés,
-              and theaters. Take in the lively atmosphere, shop for high-end
-              fashion, or enjoy a delicious meal at one of the many charming
-              restaurants. Palace of Versailles: Take a day trip to the Palace
-              of Versailles, a breathtaking royal residence located just outside
-              of Paris. Explore the opulent palace rooms, wander through the
-              magnificent gardens, and be transported back to the era of French
-              royalty. French Cuisine: Indulge in the culinary delights of
-              Paris. From exquisite pastries at quaint patisseries to gourmet
-              meals at Michelin-starred restaurants, Paris offers a gastronomic
-              adventure. Don't forget to savor classic dishes like escargots,
-              coq au vin, and crème brûlée. Whether you're captivated by the
-              Eiffel Tower, enthralled by the Louvre, or enchanted by the
-              charming streets of Montmartre, Paris promises a captivating
-              experience that will stay with you forever. Book your trip to the
-              City of Light and prepare to fall in love with its undeniable
-              charm.
+              Sightseeing and Activities: Statue of Liberty and Ellis Island:
+              Marvel at the iconic Statue of Liberty, a symbol of freedom, and
+              take a ferry ride to Ellis Island, where millions of immigrants
+              once arrived in the United States. Explore the history and
+              significance of these landmarks while enjoying panoramic views of
+              the city skyline. Times Square: Immerse yourself in the dazzling
+              lights and bustling energy of Times Square. Experience the iconic
+              billboards, street performers, and Broadway theaters. Don't forget
+              to catch a show and feel the magic of the world-renowned Theater
+              District. Central Park: Escape the urban jungle and unwind in the
+              peaceful oasis of Central Park. Take a leisurely stroll, rent a
+              bike, or enjoy a picnic in this expansive green space. Visit
+              famous sites within the park, such as the Bethesda Terrace,
+              Strawberry Fields, and the Central Park Zoo. The Metropolitan
+              Museum of Art: Delve into the world of art and culture at The Met,
+              one of the largest and most prestigious art museums in the world.
+              Explore its vast collection spanning various eras and cultures,
+              from ancient Egyptian artifacts to modern masterpieces. Brooklyn
+              Bridge: Walk across the iconic Brooklyn Bridge and enjoy
+              breathtaking views of the Manhattan skyline. Explore the trendy
+              neighborhoods of Brooklyn, sample local cuisine, and soak up the
+              vibrant atmosphere of this borough. High Line: Experience a unique
+              urban park by walking along the High Line, an elevated green space
+              built on a historic freight rail line. Enjoy stunning views,
+              public art installations, and lush gardens as you stroll through
+              this elevated oasis in the heart of Manhattan. Museum of Modern
+              Art (MoMA): Discover contemporary and modern art at the renowned
+              MoMA. Marvel at works by Picasso, Warhol, Van Gogh, and other
+              influential artists. The museum's vast collection and rotating
+              exhibits provide a rich cultural experience. Food and Cultural
+              Tours: Embark on a culinary adventure through New York's diverse
+              neighborhoods. Sample authentic ethnic cuisine in Chinatown,
+              Little Italy, or Harlem. Join food tours or explore local markets
+              like Chelsea Market for a delicious journey through the city's
+              flavors. From the towering skyscrapers of Manhattan to the vibrant
+              neighborhoods of Brooklyn, New York offers a thrilling blend of
+              art, culture, and urban energy. Whether you're captivated by the
+              lights of Times Square, inspired by the art at The Met, or
+              savoring the diverse cuisine, New York promises an unforgettable
+              experience. Book your trip to the city that never sleeps and get
+              ready to be swept away by its undeniable charisma.
             </p>
           </section>
         </div>
@@ -162,7 +166,7 @@ export default function Paris() {
           )}
           {!tour && (
             <button
-              className="border  px-3 py-1 "
+              className="border -700 px-3 py-1 "
               onClick={() => setTextError(!textError)}
             >
               BOOK NOW

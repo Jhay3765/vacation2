@@ -1,7 +1,6 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
-
 import { Collage } from "./components/collage";
 
 export default function Destinations() {
@@ -27,16 +26,18 @@ export default function Destinations() {
           value={selected}
           onChange={handleChange}
         >
-          <option value="">all destinations</option>
-          <option value="usa">UNITED STATES</option>
+          <option value="">Choose Destinations</option>
           <option value="japan">JAPAN</option>
+          <option value="paris">PARIS</option>
+          <option value="newyork">NEWYORK</option>
+          <option value="dubai">DUBAI</option>
         </select>
 
         <Link
           href={`/destinations/${selected}`}
           className=" border border-black px-2 py-1 "
         >
-          SEARCH{" "}
+          GO TO PAGE{" "}
         </Link>
       </div>
 

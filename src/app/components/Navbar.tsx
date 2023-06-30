@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { DropdownMenuDemo } from "./dropdown";
 
 export const Navbar = () => {
   return (
@@ -10,24 +11,20 @@ export const Navbar = () => {
           <Link href="/" className="hidden  sm:block">
             Home
           </Link>
+
           <Link href="/destinations" className="hidden  sm:block">
             Destinations
           </Link>
-          <li className="hidden  lg:block">Experiences</li>
-          <li className="hidden  2xl:block">Blog</li>
-          <Link href="/about" className="hidden  2xl:block">
+
+          <Link href="/about" className="hidden sm:block  ">
             About
           </Link>
-          <Link href="/contact" className="hidden  2xl:block">
+          <Link href="/contact" className="hidden sm:block">
             Contact
           </Link>
-          <Image
-            alt="menu"
-            src="/icons/menu.png"
-            width="30"
-            height="1"
-            className="2xl:hidden"
-          />
+          <div className="sm:hidden">
+            <DropdownMenuDemo />
+          </div>
         </ul>
       </nav>
     </header>

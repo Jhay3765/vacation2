@@ -5,7 +5,7 @@ import { handleCheckoutFlight } from "./components/getDataFlight";
 
 import Image from "next/image";
 
-export default function Paris() {
+export default function Dubai() {
   const [textError, setTextError] = useState(false);
   const [tour, setTour] = useState("");
 
@@ -19,8 +19,8 @@ export default function Paris() {
     <div className="">
       <div className="relative h-[500px] ">
         <Image
-          alt="paris"
-          src="/locations/france/france2.jpg"
+          alt="dubai"
+          src="/locations/dubai/dubai2.jpg"
           fill
           style={{
             objectFit: "cover",
@@ -44,52 +44,53 @@ export default function Paris() {
           </section>
           <section className="my-14 text-lg">
             <p className="max-w-xl">
-              Welcome to Paris, the enchanting capital of France! Prepare to
-              indulge in a city that seamlessly blends timeless elegance with
-              artistic charm. Whether you're seeking iconic landmarks, culinary
-              delights, or romantic escapades, Paris offers an incredible array
-              of experiences. Book your trip to Paris today and get ready to
-              embark on an unforgettable journey.
+              Welcome to Dubai, the dazzling and futuristic city of the United
+              Arab Emirates! Prepare to immerse yourself in a world where
+              luxury, innovation, and architectural wonders redefine what is
+              possible. Whether you're seeking extravagant shopping,
+              awe-inspiring landmarks, or desert adventures, Dubai offers an
+              incredible array of experiences. Book your trip to Dubai today and
+              get ready to embark on an unforgettable journey.
             </p>
             <p className="mt-12 max-w-xl">
-              Sightseeing and Activities: Eiffel Tower: Soar to new heights at
-              the Eiffel Tower, one of the world's most famous landmarks. Take
-              in breathtaking views of the city from the observation decks,
-              enjoy a romantic picnic in its surrounding gardens, or dine at one
-              of the tower's elegant restaurants. Louvre Museum: Immerse
-              yourself in art and history at the Louvre Museum, home to
-              thousands of masterpieces including the iconic Mona Lisa. Explore
-              its vast collection, wander through grand galleries, and marvel at
-              the museum's architectural splendor. Notre-Dame Cathedral: Step
-              into the Gothic masterpiece that is Notre-Dame Cathedral. Admire
-              its intricate facade, venture inside to witness its awe-inspiring
-              stained glass windows, or climb to the top for panoramic views of
-              Paris. Montmartre: Wander through the bohemian neighborhood of
-              Montmartre, known for its charming streets and artistic heritage.
-              Visit the iconic Sacré-Cœur Basilica, explore quirky art studios,
-              and soak up the vibrant atmosphere of the lively cafés and street
-              artists. Seine River Cruise: Embark on a romantic boat cruise
-              along the Seine River, gliding past Parisian landmarks such as the
-              Louvre, Notre-Dame, and the enchanting bridges. Admire the city's
-              beauty from a different perspective and enjoy a memorable evening
-              under the stars. Champs-Élysées: Stroll down the famous
-              Champs-Élysées, a grand avenue lined with luxury boutiques, cafés,
-              and theaters. Take in the lively atmosphere, shop for high-end
-              fashion, or enjoy a delicious meal at one of the many charming
-              restaurants. Palace of Versailles: Take a day trip to the Palace
-              of Versailles, a breathtaking royal residence located just outside
-              of Paris. Explore the opulent palace rooms, wander through the
-              magnificent gardens, and be transported back to the era of French
-              royalty. French Cuisine: Indulge in the culinary delights of
-              Paris. From exquisite pastries at quaint patisseries to gourmet
-              meals at Michelin-starred restaurants, Paris offers a gastronomic
-              adventure. Don't forget to savor classic dishes like escargots,
-              coq au vin, and crème brûlée. Whether you're captivated by the
-              Eiffel Tower, enthralled by the Louvre, or enchanted by the
-              charming streets of Montmartre, Paris promises a captivating
-              experience that will stay with you forever. Book your trip to the
-              City of Light and prepare to fall in love with its undeniable
-              charm.
+              Burj Khalifa: Soar to new heights at the Burj Khalifa, the world's
+              tallest building. Ascend to the observation deck on the 148th
+              floor for breathtaking views of the city's skyline, or enjoy a
+              meal at one of the high-end restaurants located within this
+              architectural marvel. The Dubai Mall: Indulge in a shopping spree
+              at The Dubai Mall, one of the world's largest shopping
+              destinations. Explore a vast array of designer brands, enjoy
+              entertainment options like an indoor theme park and an ice rink,
+              and witness the mesmerizing Dubai Fountain show. Palm Jumeirah:
+              Visit the man-made island of Palm Jumeirah, shaped like a palm
+              tree. Relax on pristine beaches, soak up the sun at luxurious
+              resorts, or embark on a yacht cruise to witness the breathtaking
+              skyline from the Arabian Gulf. Dubai Marina: Experience the modern
+              and vibrant atmosphere of Dubai Marina. Take a leisurely stroll
+              along the waterfront promenade, dine at exquisite restaurants, or
+              go on a thrilling speedboat tour to see the city's impressive
+              skyline from the water. Dubai Desert Safari: Venture into the
+              Arabian desert on a thrilling desert safari adventure. Ride over
+              golden sand dunes in a 4x4 vehicle, experience the adrenaline rush
+              of sandboarding, enjoy a traditional BBQ dinner under the stars,
+              and witness mesmerizing cultural performances. Dubai Creek:
+              Explore the historic heart of Dubai at Dubai Creek. Take a
+              traditional abra (water taxi) ride along the creek, visit the
+              vibrant spice and gold souks, and immerse yourself in the city's
+              rich trading heritage. Dubai Museum: Step back in time at the
+              Dubai Museum, located within the Al Fahidi Fort. Learn about the
+              city's history, culture, and traditional way of life through
+              fascinating exhibits and displays. Jumeirah Mosque: Admire the
+              grandeur of Jumeirah Mosque, one of Dubai's most beautiful
+              mosques. Take a guided tour to learn about Islamic culture,
+              architecture, and traditions. From the towering heights of Burj
+              Khalifa to the serene beauty of Palm Jumeirah, Dubai offers a
+              mesmerizing blend of luxury, culture, and adventure. Whether
+              you're captivated by the city's modern skyline, enchanted by its
+              traditional souks, or exploring the vast desert landscapes, Dubai
+              promises an unforgettable experience. Book your trip to this
+              extraordinary city and get ready to be dazzled by its opulence and
+              innovation.
             </p>
           </section>
         </div>

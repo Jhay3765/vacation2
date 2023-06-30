@@ -21,10 +21,14 @@ export default function Home() {
                 <em className="text-blue-400 font-bold ">Go </em>.
               </span>
             </p>
-            <button className=" text-s sm:text-lg  py-2 px-5 bg-white sm:py-4 sm:px-10  text-blue-600 font-bold mt-7">
+
+            <Link
+              href="/destinations"
+              className=" text-s sm:text-lg  py-2 px-5 bg-white sm:py-4 sm:px-10  text-blue-600 font-bold mt-7 text-center"
+            >
               {" "}
               BOOK NOW
-            </button>
+            </Link>
           </div>
         </div>
       </div>
@@ -43,19 +47,19 @@ export default function Home() {
             text=" Take in modern Tokyo: Tokyo Tower, Sensoji Temple & Imperial Gardens; explore on your own with flights, airport transfers, deluxe hotel & city tour included"
           />
           <Package
-            link="/destinations/japan"
+            link="/destinations/paris"
             img="/locations/france/tower.jpg"
             title="Paris Delights"
             text=" Experience the Timeless Charms of Paris: Eiffel Tower, Louvre Museum & Montmartre; immerse yourself in the City of Lights with flights, airport transfers, luxury accommodations & guided city tour included."
           />
           <Package
-            link="/destinations/japan"
+            link="/destinations/dubai"
             img="/locations/dubai/dubai.jpg"
             title="Dubai Extravaganza"
             text=" Burj Khalifa, Jumeirah Mosque & Desert Safari; indulge in luxury with flights, airport transfers, premium hotel & city tour included"
           />
           <Package
-            link="/destinations/japan"
+            link="/destinations/newyork"
             img="/locations/NY/newyork.jpg"
             title="NYC Escape"
             text=" Vibrant New York: Statue of Liberty, Times Square & Central Park; immerse yourself in the city that never sleeps with flights, airport transfers, upscale hotel & city tour included"
