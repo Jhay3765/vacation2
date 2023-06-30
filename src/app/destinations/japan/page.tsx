@@ -5,34 +5,8 @@ export default function Japan() {
     <ContentPage
       alt="japan"
       img="/locations/japan/japan.jpg"
-      p1="   Welcome to Tokyo, the vibrant and dynamic capital of Japan!
-              Prepare to immerse yourself in a city that seamlessly blends
-              ancient traditions with cutting-edge technology. Whether you're
-              seeking cultural landmarks, culinary delights, or urban
-              adventures, Tokyo offers an incredible array of experiences. Book
-              your trip to Tokyo today and get ready to embark on an
-              unforgettable journey. "
-      p2=" Sightseeing and Activities: Tsukiji Fish Market: Dive into the
-              vibrant atmosphere of one of the world's largest fish markets.
-              Witness the bustling tuna auctions, indulge in fresh sushi, and
-              explore the surrounding shops for a taste of Tokyo's culinary
-              scene. Meiji Shrine: Take a serene stroll through the tranquil
-              grounds of Meiji Shrine, dedicated to the deified spirits of
-              Emperor Meiji and Empress Shoken. Experience the serene beauty of
-              the shrine's lush gardens and admire the impressive architecture.
-              Shibuya Crossing: Be a part of the iconic Shibuya Crossing,
-              Tokyo's famous scramble intersection. Watch as a sea of
-              pedestrians cross the streets from all directions, creating a
-              mesmerizing spectacle. Explore the vibrant shopping and
-              entertainment district surrounding the crossing. Tokyo Skytree:
-              Reach new heights at Tokyo Skytree, one of the tallest towers in
-              the world. Ascend to the observation decks for panoramic views of
-              the city, visit the shops and restaurants in the tower, or simply
-              marvel at its architectural brilliance. Traditional Tea Ceremony:
-              Immerse yourself in Japanese culture by participating in a
-              traditional tea ceremony. Learn the art of preparing and serving
-              matcha tea while appreciating the grace and elegance of this
-              ancient practice."
+      p1="   Welcome to the captivating land of Japan, where ancient traditions harmoniously blend with modern marvels, creating a truly unique and captivating experience. Start your adventure in Tokyo, a bustling metropolis that never ceases to amaze. Explore the vibrant neighborhoods of Shibuya and Shinjuku, where towering skyscrapers coexist with traditional temples and shrines. Dive into the vibrant street culture, indulge in delicious street food, and witness the mesmerizing chaos of the iconic Shibuya Crossing, one of the busiest intersections in the world. "
+      p2=" Immerse yourself in the rich history and serene beauty of Kyoto, a city known for its countless temples, traditional gardens, and stunning UNESCO World Heritage sites. Visit the iconic Kinkaku-ji, also known as the Golden Pavilion, adorned with gold leaf that glimmers beautifully against the surrounding pond and greenery. Take a peaceful stroll through the enchanting Arashiyama Bamboo Grove, where towering bamboo stalks create a magical atmosphere. Don't miss the opportunity to experience a traditional tea ceremony and explore the historic streets of Gion, known for its geisha culture."
     />
   );
 }

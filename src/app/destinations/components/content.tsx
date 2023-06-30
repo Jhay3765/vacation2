@@ -33,28 +33,34 @@ export default function ContentPage(props: contentInfo) {
           }}
         />
       </div>
+      {/* 888888888888888888888888888888888888888888888888888  */}
 
-      <section className="flex justify-center gap-60">
-        <hr className="w-[0.5px] h-screen bg-black" />
-        <div>
-          <section className="flex gap-12 my-8 text-lg items center">
-            <p>
-              W/FLIGHTS <br /> Starts from{" "}
-              <span className="text-orange-400 ">$2049</span>{" "}
-            </p>
-            <hr className="w-[0.5px] h-12 bg-black" />
-            <p>
-              ONLY TOUR <br /> Starts from{" "}
-              <span className="text-orange-400 ">$1700</span>{" "}
-            </p>
-          </section>
-          <section className="my-14 text-lg">
-            <p className="max-w-xl">{props.p1}</p>
-            <p className="mt-12 max-w-xl">{props.p2}</p>
-          </section>
+      <section className="flex flex-col-reverse   sm:flex-row lg:justify-center lg:gap-20">
+        <div className="flex gap-10">
+          <hr className="w-1 h-[100%]  bg-blue-300 " />
+          <div>
+            <section className="flex gap-12 my-8 text-base items center">
+              <p>
+                <span className="font-bold">W/FLIGHTS </span> <br /> Starts from{" "}
+                <span className="text-orange-400 ">$2049</span>{" "}
+              </p>
+              <hr className="w-[0.5px] h-12 bg-black" />
+              <p>
+                <span className="font-bold">ONLY TOUR </span>
+                <br /> Starts from{" "}
+                <span className="text-orange-400 ">$1700</span>{" "}
+              </p>
+            </section>
+            <section className="my-14 text-base">
+              <p className="max-w-xl">{props.p1}</p>
+              <p className="mt-12 max-w-xl">{props.p2}</p>
+            </section>
+          </div>
         </div>
-        <div className="max-h-max max-w-4xl bg-orange-300 flex flex-col gap-5 pt-24 px-24 text-lg ">
-          <h2 className="text-center font-bold text-4xl pb-10">CHECKOUT</h2>
+
+        {/* 888888888888888888888888888888888888888888888888888  */}
+        <div className="pb-12  max-h-screen max-w-4xl bg-blue-300 flex flex-col gap-5 pt-12 px-14 text-lg ">
+          <h2 className="text-center font-bold text-3xl pb-5">CHECKOUT</h2>
           {/* TOUR AND FLIGHTS */}
 
           <form action="">
@@ -132,8 +138,6 @@ export default function ContentPage(props: contentInfo) {
             <p className="text-sm text-red-600">Please choose booking option</p>
           )}
         </div>
-
-        <hr className="w-[0.5px] h-screen bg-black" />
       </section>
     </div>
   );
