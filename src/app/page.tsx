@@ -67,48 +67,55 @@ export default function Home() {
         </div>
       </section>
       {/*         *********GREY BANNER*********          */}
-      <section className="bg-slate-900 flex flex-col justify-around mt-24 text-white ">
-        <h2 className="pt-14 pb-3 text-center text-4xl text-blue-600 font-semibold">
+      <section className="bg-black flex flex-col justify-around mt-24 text-white ">
+        <h2 className="pt-14 pb-3 text-center text-4xl text-blue-400 font-semibold">
           Travel with us and enjoy
         </h2>
         <div className="flex justify-around mx-auto flex-wrap">
           <Card
             img="icons/cash.png"
-            title="Incredible Value"
-            text="Feature for feature, you'll get the best value in travel."
+            title="Unbeatable Affordability"
+            text="Every aspect considered, you'll receive unparalleled value when it comes to your travel experience.."
           />
           <Card
             img="icons/plane.png"
-            title="Flights"
-            text="Included with most packages, plus hotels, transfers & meals, all for one simple price."
+            title="Airfare"
+            text="Included in the all of our packages, along with hotels, transfers, and meals, all wrapped up in one transparent price."
           />
           <Card
             img="icons/hotel.png"
-            title="High Quality Accomadations"
-            text="Relax in top notch, centrally located hotels."
+            title="Superior Lodging Options"
+            text="Indulge in first-rate accommodations that are conveniently situated at the heart of your destination."
           />
           <Card
             img="icons/flightguy.png"
-            title="Help 24/7"
-            text="Friendly service plus a 24/7 emergency line."
+            title="Assistance Around the Clock"
+            text="Enjoy our welcoming support and have peace of mind with access to a dedicated emergency line available 24/7."
           />
         </div>
       </section>
       {/*     ***************     */}
       <section className="blue-back py-36 relative bg-left">
-        <main className="max-w-5xl container mx-auto mt-14 bg-slate-300 px-14 py-14 rounded-t-3xl">
+        <main className="max-w-5xl container mx-auto mt-14 bg-white px-14 py-14 rounded-t-3xl">
           <h2 className="  text-center text-4xl font-bold pb-14">
             Trust us , Have Fun <br></br>
             <span className="text-slate-600 text-3xl font-extralight">
               {" "}
-              New Packages Coming 2024
+              New Packages Coming{" "}
+              <span className="text-red-500 font-normal"> 2024</span>
             </span>
           </h2>
           {/*           *********Beach Section*********                                            */}
           <div className=" flex flex-col gap-1   items-center    lg:flex lg:flex-row  lg:gap-24">
             <div className="grow">
-              <h2 className="text-6xl ">Bleach Bliss</h2>
-              <p className="max-w-6xl text-xl text-slate-700 pt-8 ">
+              <h2 className="text-5xl ">
+                Bleach Bliss
+                <br />
+                <span className="text-red-500 text-2xl">
+                  Coming Summer 2024
+                </span>
+              </h2>
+              <p className="max-w-6xl text-base text-slate-700 pt-8 ">
                 Sink your toes into pristine white sands and let the
                 crystal-clear turquoise waters mesmerize you. From the exotic
                 beaches of the Maldives to the vibrant shores of Miami, we offer
@@ -139,8 +146,11 @@ export default function Home() {
               />
             </div>
             <div>
-              <h2 className="text-6xl ">Nature's Haven</h2>
-              <p className="max-w-7xl text-xl text-slate-700 pt-8 ">
+              <h2 className="text-5xl ">
+                Nature's Haven <br />
+                <span className="text-red-500 text-2xl">Coming May 2024</span>
+              </h2>
+              <p className="max-w-7xl text-base text-slate-700 pt-8 ">
                 Escape the hustle and bustle of everyday life and immerse
                 yourself in the beauty of nature. Explore the lush rainforests
                 of Costa Rica, hike through the majestic mountains of New
@@ -155,8 +165,11 @@ export default function Home() {
 
           <div className="flex  gap-1 text-right flex-col  lg:flex lg:flex-row container mx-auto mt-16 lg:gap-20">
             <div>
-              <h2 className="text-6xl ">Adventure Thrills</h2>
-              <p className="max-w-7xl text-xl text-slate-700 pt-8">
+              <h2 className="text-5xl ">
+                Adventure Thrills <br />
+                <span className="text-red-500 text-2xl">Coming May 2024</span>
+              </h2>
+              <p className="max-w-7xl text-base text-slate-700 pt-8">
                 For adrenaline junkies and adventure enthusiasts, we offer
                 thrilling destinations that will get your heart racing.
                 Experience the thrill of zip-lining through Costa Rica's
